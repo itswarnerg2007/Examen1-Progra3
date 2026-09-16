@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+    <empleadoBonoConsecutivo>1</empleadoBonoConsecutivo>
+    <empleadoDeduccionConsecutivo>1</empleadoDeduccionConsecutivo>
+    <bonos>
+        <rubro>
+            <id>BON-001</id>
+            <tipo>P</tipo>
+            <nombre>Dedicación exclusiva</nombre>
+            <valor>35.0</valor>
+        </rubro>
+        <rubro>
+            <id>BON-002</id>
+            <tipo>F</tipo>
+            <nombre>Grado de Maestría</nombre>
+            <valor>20000.0</valor>
+        </rubro>
+        <rubro>
+            <id>BON-003</id>
+            <tipo>F</tipo>
+            <nombre>Grado de Doctorado</nombre>
+            <valor>30000.0</valor>
+        </rubro>
+    </bonos>
+    <deducciones>
+        <rubro>
+            <id>DED-001</id>
+            <tipo>P</tipo>
+            <nombre>Seguro de salud</nombre>
+            <valor>5.5</valor>
+        </rubro>
+        <rubro>
+            <id>DED-002</id>
+            <tipo>F</tipo>
+            <nombre>Seguro de vida del Magisterio</nombre>
+            <valor>19970.0</valor>
+        </rubro>
+        <rubro>
+            <id>DED-003</id>
+            <tipo>P</tipo>
+            <nombre>Régimen de pensiones</nombre>
+            <valor>4.33</valor>
+        </rubro>
+    </deducciones>
+    <empleados>
+        <empleado>
+            <cedula>120130245</cedula>
+            <nombre>Warner Guevara</nombre>
+            <telefono>111111</telefono>
+            <correo>wissac2007@gmail.com</correo>
+            <salarioBase>50000.0</salarioBase>
+            <bonosAplicados>
+                <bono>BON-003</bono>
+            </bonosAplicados>
+            <deduccionesAplicadas>
+                <deduccion>DED-002</deduccion>
+            </deduccionesAplicadas>
+        </empleado>
+        <empleado>
+            <cedula>7777</cedula>
+            <nombre>Jordana Montoya</nombre>
+            <telefono>22234</telefono>
+            <correo>jordan.m@gmail.com</correo>
+            <salarioBase>4000000.0</salarioBase>
+            <bonosAplicados>
+                <bono>BON-003</bono>
+            </bonosAplicados>
+            <deduccionesAplicadas>
+                <deduccion>DED-002</deduccion>
+            </deduccionesAplicadas>
+        </empleado>
+    </empleados>
+</data>
